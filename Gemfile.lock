@@ -241,6 +241,7 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-theme-clean-blog
+  jekyll-theme-primer
 
 BUNDLED WITH
    1.16.1
