@@ -4,7 +4,6 @@ description:       CoLab front page
 author:            Nicolas Angelides
 baseurl:           "/Home"
 url:               "http://colab.earth/"
-theme:             jekyll-theme-awesome
 
 # Social Profiles
 twitter_username:  regnidorhcs
