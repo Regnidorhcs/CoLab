@@ -2,7 +2,7 @@ title:             CoLab
 email:             angelidesnicolas@gmail.com
 description:       CoLab front page
 author:            Nicolas Angelides
-baseurl:           "/Home"
+baseurl:           ""
 url:               "http://colab.earth/"
 
 # Social Profiles
