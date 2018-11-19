@@ -13,9 +13,8 @@ layout: default
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>{{ site.title }}</h1>
             {% if site.description %}
-              <span class="subheading">{{ site.description }}</span>
+            <div style ='background-color: #7FADB8; align-items:center'>   <span  style="width:95%; display: inline-block"  class="subheading">{{ site.description }}</span></div>
             {% endif %}
           </div>
         </div>
@@ -25,11 +24,65 @@ layout: default
 
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
+      <div class="col-lg-10 col-md-12 mx-auto">
 
-        {{ content }}
+        <!-- {{ content }} -->
 
-        <!-- Home Post List -->
+
+        <h2 class="post-title">What we’re doing?</h2>
+
+        <div class="row">
+          <div class="col-lg-8 col-md-10">
+            <p>
+            The United Nations 17 sustainable development goals highlight how interlinked our global challenges have become.
+            </p><p>
+            It’s clear the conversation about solutions to social and environmental degradation isn’t moving fast enough. To be relevant it must be real time, value producing, and cut through the lines drawn between disciplines, departments and countries.
+            </p><p>
+            We believe that by connecting those with the desire to collaborate, we can expose hidden value opportunities within the academic ecosystem.
+            </p><p>
+            We’re inviting the global academic community to help us start the conversation about how we can open source problem solving in a way that revolutionises academia’s role in finding solutions for global issues. We have the means, it’s time for radical collective innovation.
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-4">   <img class="img-fluid" src="img/home-puzzle.png" alt="Puzzle"></div>
+        </div>
+
+        <hr>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6">   <img class="img-fluid" src="img/venn-diagram.png" alt="Puzzle"></div>
+          <div class="col-lg-6 col-md-6">
+            <h2 class="post-title">Why we’re doing it?</h2>
+            <p>
+            As global citizens we have a responsibility to reflect upon our role within societies’ value chain, unearth links we can leverage to drive positive change towards the issues we individually care about.
+            </p><p>
+            Co-Lab’s mission is to support those with the desire to be involved in solutions to complex problems. Problems often too big for one person to solve. It’s born from a belief that an opportunity to collaborate internationally on solutions to global issues is a human right, responsibility and privilege.
+            </p>
+          </div>
+        </div>
+        <hr>
+
+        <div class="row">
+          <div class="col-lg-8 col-md-8">
+            <h2 class="post-title">How are we’re doing it?</h2>
+            <p>
+            History shows opportunity often presents itself masked as disruption. For all of humanity to thrive it’s going to take a shared vision of value producing outcomes that benefit the many.
+            </p><p>
+            Our strategy is centred and powered by our creative principle “what could be”. People want to contribute to a better future, but often they can’t see how or with who.
+          </p><p>
+            It’s our mission to create a collaborative problem solving platform for global issues. One that will help academia’s efforts on solutions to global issues become searchable, actionable and more successful.
+          </p><p>
+            It begins with open conversations about what the answers ‘could be’. Our success rests upon inviting you, the community to help us understand what an individual would need to become the change they would like to see in the world.
+          </p><p>
+            We’re at the very beginning of a very exciting but undefined journey. With your help, we can drive this conversation to where it can make a difference.
+          </p>
+          </div>
+         <div class="col-lg-4 col-md-4">   <img class="img-fluid" src="img/road-map.png" alt="Puzzle"></div>
+        </div>
+
+
+
+
+        <!--
         {% for post in site.posts limit : 5 %}
 
           <article class="post-preview">
@@ -53,12 +106,16 @@ layout: default
 
           <hr>
 
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
+          </div>
         {% endfor %}
-
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
-        </div>
+        Home Post List -->
+        <div class="row">
+          <div class="col-lg-6 col-md-6 mx-auto">
+        <img class="img-fluid" src="img/belief.png" alt="Puzzle"></div>
+      </div>
+    </div>
 
       </div>
     </div>
